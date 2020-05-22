@@ -2,6 +2,8 @@
 
 osx_num=$(sw_vers -productVersion | awk -F '[.]' '{print $2}')
 
+echo "$sw_vers -productVersion"
+
 OSX_MARKETING=(
    ['14']='Mojave'
    ['15']='Catalina'

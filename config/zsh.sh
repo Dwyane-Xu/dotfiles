@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# 判断目录是否存在
 if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
   info "Installing Oh My Zsh..."
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/loket/oh-my-zsh/feature/batch-mode/tools/install.sh)" -s --batch || {
